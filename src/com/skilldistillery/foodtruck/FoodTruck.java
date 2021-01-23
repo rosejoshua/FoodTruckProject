@@ -8,13 +8,23 @@ public class FoodTruck {
 	private String foodType;
 	private double rating;
 	
-	public FoodTruck(String name, String foodType, double rating) {
+	public FoodTruck(String name) {
 		this.id = nextId;
 		nextId++;
 		
 		this.name = name;
+		this.foodType = "undecided";
+		this.rating = 0.0;
+	}
+
+	public void setFoodType(String foodType) {
 		this.foodType = foodType;
+	}
+
+	public void setRating(double rating) {
 		this.rating = rating;
 	}
+	
+	
 
 }
