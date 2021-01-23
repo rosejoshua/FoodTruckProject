@@ -40,5 +40,12 @@ public class FoodTruck {
 	public double getRating() {
 		return rating;
 	}
+
+	@Override
+	public String toString() {
+		return "[ID = " + id + ", Name = " + name + ", Food Type = " + foodType + ", Rating = " + rating + "]";
+	}
+	
+	
 	
 }
