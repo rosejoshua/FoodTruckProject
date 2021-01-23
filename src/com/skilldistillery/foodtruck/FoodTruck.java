@@ -24,7 +24,21 @@ public class FoodTruck {
 	public void setRating(double rating) {
 		this.rating = rating;
 	}
-	
-	
 
+	public int getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+	
+	public String getFoodType() {
+		return foodType;
+	}
+
+	public double getRating() {
+		return rating;
+	}
+	
 }
